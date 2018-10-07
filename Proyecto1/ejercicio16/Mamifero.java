@@ -1,3 +1,6 @@
+/**
+*La clase Mamifero representa mamiferos y hereda de la clase Animal.
+*/
 public class Mamifero extends Animal{
 
 	int patasParaAndar; //Atributo aniadido por nosotros para la clase Mamifero

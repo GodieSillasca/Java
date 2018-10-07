@@ -1,11 +1,18 @@
+/**
+*Case Ave que hereda de Animal.
+*/
 public class Ave extends Animal {
 	int numeroDeAlas; //atributo añadido
-	
+/**
+*Metodo constructor de Ave
+*/
 	public Ave(int tamano,String color, String colorOjos,String nombre,int numeroDeAlas){
 		super(new Plumas(), tamano, color,new Ojos(colorOjos,2),nombre);//el dos, es una contstante, número de ojos
 		this.numeroDeAlas = numeroDeAlas;
 	}
-
+/**
+*Metodo hecho en clase, describe como avanza una Ave
+*/
 	public void avanzar(){
 		System.out.println("No estoy volando, estoy cayendo con estilo.");
 	}

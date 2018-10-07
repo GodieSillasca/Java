@@ -33,10 +33,16 @@ public class Anfibio extends Animal{
 		System.out.println("Soy incapaz de mantener mi temperatura corporal constante.");
 	}
 
+/**
+*Sobreescritura del método toString para los Anfibios.
+*/
 	public String toString(){
 		return "Piel: "+this.piel+"\nTamaño: "+this.tamano+"\nColor: "+this.color+"\nOjos: "+this.ojos+"\nNombre: "+this.nombre+"\nEspecie: "+this.especie;
 	}
 
+/**
+*Metodo equals(Object o) para Anfibio
+*/
 	public boolean equals(Object o){
 		if (!(o instanceof Anfibio)){
 			return false;
